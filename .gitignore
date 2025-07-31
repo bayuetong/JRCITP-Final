@@ -1,0 +1,53 @@
+# Node.js (React/Electron)
+node_modules/
+build/
+dist/
+*.log
+.env
+.env.local
+.cache/
+coverage/
+
+# Electron packaging artifacts
+*.asar
+*.exe
+*.dmg
+*.app
+out/
+release/
+*.snap
+*.deb
+
+# Flask (Python backend)
+__pycache__/
+*.pyc
+instance/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# MATLAB temporary and output files
+*.asv
+*.m~
+*.mat
+*.fig
+*.mlx
+*.mex*
+*.slx
+*.mdl
+
+# System / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# OS-specific
+Icon?
+ehthumbs.db
+Desktop.ini
+
+# Ignore build output folders
+dist/
+frontend/dist/
